@@ -7,6 +7,18 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+llama-index = "^0.10.20"
+llama-index-llms-ollama = "^0.1.2"
+llama-index-llms-openai = "^0.1.12"
+llama-index-readers-file = "^0.1.11"
+docx2txt = "^0.8"
+streamlit = "^1.32.2"
+watchdog = "^4.0.0"
+llama-index-embeddings-huggingface = "^0.1.4"
+transformers = "^4.38.2"
+chromadb = "^0.4.24"
+llama-index-vector-stores-chroma = "^0.1.6"
+llama-index-vector-stores-astra-db = "^0.1.5"
 
 
 [build-system]
